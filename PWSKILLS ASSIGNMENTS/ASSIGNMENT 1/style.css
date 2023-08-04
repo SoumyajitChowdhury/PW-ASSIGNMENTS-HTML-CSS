@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+html ,body{
+    height: 100%;
+     width: 100%;
+     background-image:  linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(./pexels-maxyne-barcel-10402282\ 1\ \(1\).png);
+     background-size: cover;
+     background-repeat: no-repeat;
+     background-attachment: fixed;
+}
+
+.nav{
+    height: 80px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 33px;
+    padding-left: 33px;
+    padding-right: 33px;
+}
+
+.nav-text{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 50px;
+    color: #ffc233;
+}
+
+button{
+    background-color: #ff505f;
+    border: none;
+    padding: 15px 32px;
+    text-align: center;
+    font-size: 16px;
+    color: white;
+
+}
+.hero{
+    height: 70%;
+    width: 71%;
+    position: absolute;
+    top: 20%;
+    left: 15%;
+}
+.hero h1{
+    font-size: 100px;
+    font-weight: 900;
+    color: #ffc233;
+    justify-content: center;
+    
+}
+.hero-button{
+    margin-left:400px;
+}
